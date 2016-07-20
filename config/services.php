@@ -34,5 +34,24 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    /* komodo - SOCIAL LOGIN FEATURES  */
+
+    'facebook' => [
+        'client_id' => 'your-github-app-id',
+        'client_secret' => 'your-github-app-secret',
+        'redirect' => 'http://local.laravel.dev/home',
+    ],
+
+    'twitter' => [
+        'client_id' => 'your-github-app-id',
+        'client_secret' => 'your-github-app-secret',
+        'redirect' => 'http://local.laravel.dev/home',
+    ],
+
+    'google' => [
+        'client_id' => 'your-github-app-id',
+        'client_secret' => 'your-github-app-secret',
+        'redirect' => 'http://local.laravel.dev/home',
+    ],
 
 ];
